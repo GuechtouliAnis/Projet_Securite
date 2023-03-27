@@ -2,7 +2,6 @@ import random
 import string
 import subprocess
 import time
-import cryptography
 import matplotlib.pyplot as plt
 def generate_files (file_name,file_size):
     with open(file_name, 'w') as f:
