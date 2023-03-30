@@ -1,0 +1,5 @@
+Aniss,Milan7,root
+Mohammed,abcde,simple_user
+Maximus,glad1ator,simple_user
+Samir,3589gimpact,simple_user
+Ismael,04benna,simple_user
