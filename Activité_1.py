@@ -35,7 +35,7 @@ for i in sizes:
             command = f"openssl enc -e {j} -in {fileIn} -out {fileOut} -pass pass: {passwd}"
             end_time = time.time()-start_time
             end_time = end_time*1000
-            print("file"+str(i)+"mb"+str(j)+f"encrypted with a time of {end_time: .10} miliseconds")
+            print("file"+str(i)+"mb"+str(j)+f" encrypted with a time of {end_time: .10} miliseconds")
             AES_T={"Type":j[-3:],"Size":str(i)+'mb',"Time":end_time}
             AES[str(i)+'mb_'+str(j[-3:])]=AES_T
         for k in encryption_des:
@@ -44,10 +44,9 @@ for i in sizes:
             command = f"openssl enc -e {k} -in {fileIn} -out {fileOut} -pass pass: {passwd}"
             end_time = time.time()-start_time
             end_time = end_time*1000
-            print("file"+str(i)+"mb"+str(k)+f"encrypted with a time of {end_time: .10} miliseconds")
+            print("file"+str(i)+"mb"+str(k)+f" encrypted with a time of {end_time: .10} miliseconds")
             DES_T={"Type":k[-3:],"Size":str(i)+'mb',"Time":end_time}
-            DES[str(i)+'mb_'+str(k[-3:])]=AES_T
-
+            DES[str(i)+'mb_'+str(k[-3:])]=DES_T
 AES_data = list(AES.values())
 DES_data = list(DES.values())
 
