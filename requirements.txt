@@ -1,1 +1,7 @@
+# Requirements file for encryption and signing scripts
+os
+hashlib
+time
 matplotlib
+random
+string
