@@ -57,6 +57,3 @@ pip install -r requirements.txt
 ## Security Considerations
 - Store private keys securely with appropriate permissions.
 - Ensure the `names.txt` file is protected to avoid exposing user credentials.
-
-## License
-This project is licensed under the MIT License.
