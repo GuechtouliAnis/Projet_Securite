@@ -16,8 +16,8 @@ This repository contains Python scripts for encrypting, signing, sending, receiv
 ## Installation
 Clone the repository and install the required modules:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/GuechtouliAnis/Projet_Securite
+cd Projet_Securite
 pip install -r requirements.txt
 ```
 
